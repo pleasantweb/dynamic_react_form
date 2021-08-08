@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Noto+Serif+JP:wght@200&family=Old+Standard+TT&family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 550px;
+  height: 370px;
+  border-radius: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 10px 10px 30px gray;
+          box-shadow: 10px 10px 30px gray;
+}
+
+.container .card .leftside {
+  border-radius: 19px 0 0 19px;
+  width: 80%;
+  height: 100%;
+  background-color: #E0D1AA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .card .leftside .textContent {
+  width: 70%;
+  height: 100%;
+}
+
+.container .card .leftside .textContent .textDiv {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.container .card .leftside .textContent .textDiv svg {
+  font-size: 2.2rem;
+}
+
+.container .card .leftside .textContent .textDiv h1 {
+  font-size: 2.7rem;
+  padding-top: 18%;
+  font-family: 'Cinzel', serif;
+  font-weight: 100;
+}
+
+.container .card .leftside .textContent .textDiv svg.topleaf {
+  margin-top: 5%;
+}
+
+.container .card .leftside .textContent .textDiv svg.lowleaf {
+  margin-top: 18%;
+}
+
+.container .card .leftside .imgContent {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card .leftside .imgContent .img {
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .leftside .imgContent .img svg {
+  font-size: 3.5rem;
+  color: #2B6387;
+}
+
+.container .card .rightside {
+  border-radius: 19px;
+  width: 20%;
+  height: 100%;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card .rightside .imgg {
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .rightside .imgg svg {
+  font-size: 3.8rem;
+  color: #2B6387;
+}
+
+.container .card .rightside .imgg svg.postgre {
+  margin-top: 10%;
+}
+
+.container .card .rightside .imgg svg.mysql {
+  font-size: 4.1rem;
+}
+
+.container .card .rightside .myimg {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .card .rightside .myimg img {
+  width: 100%;
+  height: 70%;
+  border-radius: 16px 0 0 0;
+}
+/*# sourceMappingURL=App.css.map */

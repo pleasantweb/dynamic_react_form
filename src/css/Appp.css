@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.container .formDiv {
+  width: 90%;
+  margin: 50px auto 0 auto;
+  height: auto;
+}
+
+.container .formDiv form {
+  width: 100%;
+  height: auto;
+}
+
+.container .formDiv form .titleDiv, .container .formDiv form .descriptionDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .formDiv form .titleDiv svg, .container .formDiv form .descriptionDiv svg {
+  font-size: 2.9rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.container .formDiv form .titleDiv .titleinp, .container .formDiv form .descriptionDiv .titleinp {
+  width: 95%;
+  height: 70px;
+  font-size: 2.3rem;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+}
+
+.container .formDiv form .titleDiv .titleinp::-webkit-input-placeholder, .container .formDiv form .descriptionDiv .titleinp::-webkit-input-placeholder {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .formDiv form .titleDiv .titleinp:-ms-input-placeholder, .container .formDiv form .descriptionDiv .titleinp:-ms-input-placeholder {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .formDiv form .titleDiv .titleinp::-ms-input-placeholder, .container .formDiv form .descriptionDiv .titleinp::-ms-input-placeholder {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .formDiv form .titleDiv .titleinp::placeholder, .container .formDiv form .descriptionDiv .titleinp::placeholder {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .formDiv form .titleDiv .titleinp::-webkit-input-placeholder, .container .formDiv form .descriptionDiv .titleinp::-webkit-input-placeholder {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .formDiv form .titleDiv .titleinp:-ms-input-placeholder, .container .formDiv form .descriptionDiv .titleinp:-ms-input-placeholder {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .formDiv form .descriptionDiv .descripton {
+  width: 90%;
+  height: 20px;
+  font-size: 1.3rem;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+
+.container .formDiv form .descriptionDiv .descripton::-webkit-input-placeholder {
+  font-size: 1.7rem;
+  padding-top: 6%;
+}
+
+.container .formDiv form .descriptionDiv .descripton:-ms-input-placeholder {
+  font-size: 1.7rem;
+  padding-top: 6%;
+}
+
+.container .formDiv form .descriptionDiv .descripton::-ms-input-placeholder {
+  font-size: 1.7rem;
+  padding-top: 6%;
+}
+
+.container .formDiv form .descriptionDiv .descripton::placeholder {
+  font-size: 1.7rem;
+  padding-top: 6%;
+}
+
+.container .formDiv form .optionsDiv {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.container .formDiv form .optionsDiv .options {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .formDiv form .optionsDiv .options .showBtn {
+  width: 30%;
+}
+
+.container .formDiv form .optionsDiv .options .showBtn svg {
+  font-size: 2.3rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container .formDiv form .optionsDiv .options .hiddenButtons {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.8rem;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.8;
+}
+/*# sourceMappingURL=Appp.css.map */
